@@ -1,0 +1,21 @@
+{
+  "apiVersion": 3,
+  "name": "octarinepress/two-columns",
+  "title": "Two Columns",
+  "category": "octarinepress-theme",
+  "icon": "columns",
+  "description": "Two-column layout. Insert any blocks into each column.",
+  "attributes": {
+    "mobileGapClass": {
+      "type": "string",
+      "default": "gap-8"
+    },
+    "desktopGapClass": {
+      "type": "string",
+      "default": "gap-8"
+    }
+  },
+  "supports": {
+    "html": false
+  }
+}

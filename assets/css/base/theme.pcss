@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+@import './fonts.pcss' layer(base);
+
+
+@theme {
+    --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+
+    --color-main: #ed1c24;
+    --color-accent: #D6F60C;
+    --color-secondary: #F6E9E0;
+    --color-white: #ffffff;
+    --color-black: #1a1a1a;
+    --color-red: #ed1c24;
+    --color-red-dark: #c41119;
+    --color-orange: #f97316;
+    --color-cream: #F6E9E0;
+    --color-dark: #1a1a1a;
+    --color-dark-green: #166534;
+    --color-gray: #f3f4f6;
+    --color-blue: #2563eb;
+
+    --tracking-tag: 0.38rem;
+    --tracking-head: -0.0375rem;
+
+}
+
+:root {
+    --content-max: 96rem;
+    --gutter: clamp(1rem, 3vw, 2rem);
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns:
+    [full-start]  minmax(var(--gutter), 1fr)
+    [content-start] minmax(0, var(--content-max))
+    [content-end]  minmax(var(--gutter), 1fr)
+    [full-end];
+}
+
+@layer base {
+
+
+    html {
+        @apply bg-white text-black font-body;
+        @media (prefers-reduced-motion: no-preference) {
+            scroll-behavior: smooth;
+        }
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply mb-4 font-body;
+    }
+
+
+    p {
+        @apply mb-4;
+    }
+
+    ul,
+    ol {
+        @apply mb-4 mr-2;
+    }
+
+    dl {
+        margin: 0 0 1.5em 0
+    }
+
+    dt {
+        font-weight: bold
+    }
+
+    dd {
+        margin-left: 1.5em
+    }
+
+    blockquote {
+        font-style: italic
+    }
+
+    .site-main {
+        article {
+            ul {
+                @apply list-disc list-inside;
+            }
+
+            ol {
+                @apply list-decimal list-inside;
+            }
+
+        }
+    }
+}

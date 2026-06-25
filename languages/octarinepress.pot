@@ -1,0 +1,516 @@
+# Copyright (C) 2026 Szymon Hałat
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: OctarinePress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/octarinepress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-25T14:22:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: octarinepress\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "OctarinePress"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A custom WordPress starter theme for Gutenberg blocks, Vite-based assets and performance-focused frontend development."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Szymon Hałat"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://halat.dev"
+msgstr ""
+
+#: 404.php:13
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:18
+msgid "Houston, we have a problem."
+msgstr ""
+
+#: 404.php:19
+msgid "The page you are looking for does not exist. Return to the homepage and try again."
+msgstr ""
+
+#: 404.php:20
+msgid "Back to homepage"
+msgstr ""
+
+#: archive.php:31
+msgid "Archives"
+msgstr ""
+
+#: header.php:39
+msgid "Open mobile menu"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:14
+msgid "Theme settings"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:15
+msgid "Header and footer sections"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:19
+msgid "Menu buttons"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:32
+msgid "Button text"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:48
+msgid "Button URL"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:57
+msgid "Social media"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:71
+msgid "Facebook"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:88
+msgid "Facebook group"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:104
+msgid "Instagram"
+msgstr ""
+
+#: inc/Api/Customizer/ThemeSettings.php:120
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/Api/Gutenberg.php:40
+msgid "OctarinePress patterns"
+msgstr ""
+
+#: inc/Api/Gutenberg.php:60
+msgid "Theme sections"
+msgstr ""
+
+#: inc/Api/Widgets.php:22
+msgid "Blog"
+msgstr ""
+
+#: inc/Api/Widgets.php:39
+msgid "Footer - full width"
+msgstr ""
+
+#: inc/Custom/Comments.php:38
+msgid "Your email address will not be published. Required fields are marked with *."
+msgstr ""
+
+#: inc/Setup/Images.php:326
+#: inc/Setup/Images.php:329
+msgid "Clear image cache"
+msgstr ""
+
+#: inc/Setup/Navigation.php:58
+msgid "Desktop"
+msgstr ""
+
+#: inc/Setup/Navigation.php:59
+msgid "Mobile"
+msgstr ""
+
+#: inc/Setup/Navigation.php:60
+msgid "Footer"
+msgstr ""
+
+#: template-parts/blog/next-previous.php:7
+msgid "Previous"
+msgstr ""
+
+#: template-parts/blog/next-previous.php:8
+msgid "Next"
+msgstr ""
+
+#: template-parts/blog/related-posts.php:12
+msgid "Related posts:"
+msgstr ""
+
+#: template-parts/content-none.php:9
+msgid "Nothing here"
+msgstr ""
+
+#. translators: %s: URL to the WordPress editor for a new post.
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid "Sorry, nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid "It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: assets/js/formats/inline-text-color.jsx:10
+#: assets/js/formats/inline-text-color.jsx:27
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Text color"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:60
+msgid "Hero Banner"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:61
+msgid "Configure the hero banner content."
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:66
+#: blocks/image/edit.jsx:76
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Content"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:70
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Top title"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:78
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Title"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:85
+msgid "Short text"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:93
+msgid "Links"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:97
+msgid "Link text"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:106
+msgid "Link text 2"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:119
+#: blocks/image/edit.jsx:22
+#: blocks/image/edit.jsx:28
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Image"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:135
+#: blocks/image/edit.jsx:50
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Replace image"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:136
+#: blocks/image/edit.jsx:50
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Select image"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:147
+#: blocks/image/edit.jsx:63
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Remove image"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:159
+msgid "Tags"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:165
+msgid "Tag"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:171
+msgid "Move up"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:177
+msgid "Move down"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:183
+msgid "Remove tag"
+msgstr ""
+
+#: blocks/hero-banner/edit.jsx:193
+msgid "Add tag"
+msgstr ""
+
+#: blocks/image/edit.jsx:23
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Select an image rendered with the theme responsive image generator."
+msgstr ""
+
+#: blocks/image/edit.jsx:80
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Alt text"
+msgstr ""
+
+#: blocks/image/edit.jsx:85
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Caption"
+msgstr ""
+
+#: blocks/image/edit.jsx:90
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Add caption..."
+msgstr ""
+
+#: blocks/two-columns/edit.jsx:43
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Layout"
+msgstr ""
+
+#: blocks/two-columns/edit.jsx:45
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Mobile gap class"
+msgstr ""
+
+#: blocks/two-columns/edit.jsx:51
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Desktop gap class"
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Main Banner"
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Add image, headings, content and buttons."
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Add title..."
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Add content..."
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Buttons"
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Button text 1"
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Button URL 1"
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Button text 2"
+msgstr ""
+
+#: dist/octarinepress-blocks-BrV60J1m.js:1
+msgid "Button URL 2"
+msgstr ""
+
+#: blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr ""
+
+#: blocks/column/block.json
+msgctxt "block description"
+msgid "A single column inside the Two Columns block."
+msgstr ""
+
+#: blocks/content-grid/block.json
+msgctxt "block title"
+msgid "Content Grid"
+msgstr ""
+
+#: blocks/content-grid/block.json
+msgctxt "block description"
+msgid "Generic wrapper block with the theme content grid."
+msgstr ""
+
+#: blocks/hero-banner/block.json
+msgctxt "block title"
+msgid "Hero Banner"
+msgstr ""
+
+#: blocks/hero-banner/block.json
+msgctxt "block description"
+msgid "Hero banner with content, links, image and text tags."
+msgstr ""
+
+#: blocks/hero-banner/block.json
+msgctxt "block keyword"
+msgid "hero"
+msgstr ""
+
+#: blocks/hero-banner/block.json
+msgctxt "block keyword"
+msgid "banner"
+msgstr ""
+
+#: blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr ""
+
+#: blocks/image/block.json
+msgctxt "block description"
+msgid "Theme image block using OctarinePress responsive image generation."
+msgstr ""
+
+#: blocks/two-columns/block.json
+msgctxt "block title"
+msgid "Two Columns"
+msgstr ""
+
+#: blocks/two-columns/block.json
+msgctxt "block description"
+msgid "Two-column layout. Insert any blocks into each column."
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Main"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Square - 1:1"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Standard - 4:3"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Portrait - 3:4"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic - 3:2"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Classic Portrait - 2:3"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Wide - 16:9"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Tall - 9:16"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Plus Jakarta Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XS"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "SM"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "LG"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "4XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "5XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "6XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "7XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "8XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "9XL"
+msgstr ""

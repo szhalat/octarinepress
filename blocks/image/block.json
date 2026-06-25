@@ -1,0 +1,30 @@
+{
+  "apiVersion": 3,
+  "name": "octarinepress/image",
+  "title": "Image",
+  "category": "octarinepress-theme",
+  "icon": "format-image",
+  "description": "Theme image block using OctarinePress responsive image generation.",
+  "parent": ["octarinepress/column"],
+  "attributes": {
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "caption": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false
+  }
+}

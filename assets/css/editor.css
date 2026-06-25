@@ -1,0 +1,6 @@
+@import './base/theme.pcss';
+
+/*! purgecss start ignore */
+@import './editor/icons.pcss';
+@import './editor/blocks-guides.pcss';
+/*! purgecss end ignore */

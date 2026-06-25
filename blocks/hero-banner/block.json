@@ -1,0 +1,58 @@
+{
+  "apiVersion": 3,
+  "name": "octarinepress/hero-banner",
+  "title": "Hero Banner",
+  "category": "octarinepress-theme",
+  "icon": "cover-image",
+  "description": "Hero banner with content, links, image and text tags.",
+  "keywords": ["hero", "banner"],
+  "attributes": {
+    "topTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "shortText": {
+      "type": "string",
+      "default": ""
+    },
+    "linkText": {
+      "type": "string",
+      "default": ""
+    },
+    "linkUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "linkText2": {
+      "type": "string",
+      "default": ""
+    },
+    "linkUrl2": {
+      "type": "string",
+      "default": ""
+    },
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "tags": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": ["wide", "full"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "apiVersion": 3,
+  "name": "octarinepress/column",
+  "title": "Column",
+  "category": "octarinepress-theme",
+  "description": "A single column inside the Two Columns block.",
+  "parent": ["octarinepress/two-columns"],
+  "supports": {
+    "html": false,
+    "inserter": false
+  }
+}

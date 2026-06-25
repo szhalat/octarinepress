@@ -1,0 +1,11 @@
+{
+  "apiVersion": 3,
+  "name": "octarinepress/content-grid",
+  "title": "Content Grid",
+  "category": "octarinepress-theme",
+  "icon": "align-wide",
+  "description": "Generic wrapper block with the theme content grid.",
+  "supports": {
+    "html": false
+  }
+}
