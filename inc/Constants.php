@@ -1,7 +1,11 @@
 <?php
 
+if (! defined('ABSPATH')) {
+    return;
+}
+
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
-$dotenv->load();
+$dotenv->safeLoad();
 
 const OCTARINEPRESS_SLUG = 'octarinepress';
 const OCTARINEPRESS_SHORT = 'octarinepress_';
